@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #0f172a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px 20px 100px;
+}
+
+/* .logo {
+  margin: 34px 0px 34px 100px;
+} */
+
+header nav a {
+  color: #f8fafc;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  gap: 60px;
+}
+
+.heading-proj {
+  margin: 94px 953px 83px 144px;
+}
+
+h2 {
+  color: #f8fafc;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+span {
+  color: #16b8f3;
+}
+
+.articles {
+  display: flex;
+  gap: 41px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 145px;
+}
+
+.article {
+  width: 1150px;
+  height: 300px;
+  background-color: #1e293b66;
+  border-radius: 20px;
+}
+
+.art-1 {
+  padding: 34px 8px;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.art-2 {
+  padding: 45px 17px;
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+
+.art-3 {
+  padding: 54px 27px;
+  display: flex;
+  align-items: center;
+  gap: 106px;
+}
+
+article h3 {
+  color: #f8fafc;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+article p {
+  color: #cbd5e1;
+  margin-bottom: 14px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.heading-posts {
+  margin: 94px 994px 82px 150px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 0px 148px 275px 145px;
+}
+
+.card {
+  width: 369px;
+  height: 518px;
+  border-radius: 20px;
+  background-color: #1e293b;
+  text-align: center;
+}
+
+h4 {
+  color: #f8fafc;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 22px 76px 20px 76px;
+}
+
+.date-info {
+  color: #cbd5e1;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.card-info {
+  color: #f8fafc;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px 14px 71px 14px;
+}
+
+.line {
+  border: 1px solid #cbd5e1;
+  margin: 0 2px 0px 2px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyr {
+  font-size: 20px;
+  font-weight: 500;
+  color: #cbd5e1;
+  margin: 57px 0 56px 108px;
+}
+
+.icons {
+  margin: 35px 172px 57px 0;
+  display: flex;
+  gap: 10px;
+}
